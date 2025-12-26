@@ -1,19 +1,80 @@
-# 🎈 Blank app template
+nglish Version
+🚀 Overview
 
-A simple Streamlit app template for you to modify!
+AI Decision Insight Analyzer is a lightweight Streamlit application that transforms raw e-commerce product reviews into clear, executive-ready decision insights.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+Instead of charts or dashboards, this app focuses on narrative intelligence — helping decision makers quickly understand risks, data quality issues, and recommended actions.
 
-### How to run it on your own machine
+❓ Problem
 
-1. Install the requirements
+Large volumes of product reviews often suffer from:
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+Rating and review text inconsistencies
 
-2. Run the app
+Misleading signals for business decisions
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+Low-quality data for AI training
+
+Information overload without clear conclusions
+
+Decision makers don’t need more data — they need clarity.
+
+✅ Solution
+
+This app analyzes CSV-based product reviews and generates:
+
+A concise decision-oriented narrative
+
+Key business & AI risks
+
+Practical recommendations (short & medium term)
+
+All results are presented in plain language, ready for non-technical stakeholders.
+
+🎯 Target Users
+
+Product Managers
+
+Business Stakeholders
+
+AI / Data Practitioners
+
+Founders & Analysts
+
+Non-technical Decision Makers
+
+📊 Input
+
+CSV file containing product reviews, including:
+
+Review text
+
+Rating score
+
+The app automatically detects and normalizes column names.
+
+🧠 Output
+
+Executive narrative insight
+
+Key decision risks
+
+Actionable recommendations
+
+Zero charts, zero noise — just insight
+
+🛠 Tech Stack
+
+Python
+
+Streamlit
+
+Pandas
+
+Rule-based data analysis
+
+Optional LLM-based narrative generation
+
+🚀 Live Demo
+
+👉 Try the app:
